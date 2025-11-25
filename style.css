@@ -128,3 +128,35 @@ header {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
+/* -------------ABOUT---------- */
+
+#about{
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(18rem, auto)); */
+    align-items: start;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.about-img img {
+    border-radius: 3rem 0 3rem 3rem;
+}
+
+.about-text span {
+    font-size: 1rem;
+    text-decoration: uppercase;
+    font-weight: 500;
+    color: var(--main-color);
+}
+
+.about-text h2 {
+    font-size: 1.7rem;
+}
+
+.about-text p {
+    font-size: 1rem;
+    margin: 1rem 0 1rem;
+}
+
+.about-text a {
+    margin-top: 20px;
+}
