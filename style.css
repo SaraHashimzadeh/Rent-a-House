@@ -200,3 +200,38 @@ header {
 .sales .box p {
     font-size: 0.938rem;
 }
+
+/* ------------properties------------ */
+.heading {
+    text-align: center;  
+    margin-bottom: 2rem;
+}
+
+.heading span {
+    font-weight: 500;
+    color-interpolation-filters: var(--main-color);
+}
+
+.heading h2 {
+    font-size: 1.7rem;
+}
+
+.properties {
+    background: #fbfbfb;
+    border-radius: 2rem;
+}
+
+.properties-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    gap: 3rem;
+    padding: 0 50px;
+}
+
+.properties-container .box {
+    background: var(--bg-color);
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+}
+
