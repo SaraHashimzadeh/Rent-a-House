@@ -423,6 +423,10 @@ header {
     font-weight: 500;
 }
 
+.login-container form .button:hover {
+    background: #3492fd;
+}
+
 .login-container form a {
     font-size: 0.9rem;
     text-align: right;
